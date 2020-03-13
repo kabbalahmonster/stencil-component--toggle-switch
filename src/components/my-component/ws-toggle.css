@@ -1,0 +1,39 @@
+.component{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.theButton{
+    border-radius: 50%;
+    padding: 2px;
+    margin: 3px;
+    background-color: #f61f1f;
+    max-height: 50px;
+    max-width: 50px;
+    height: 50px;
+    width: 50px;
+    outline: none;
+    border: 1px black solid;
+    box-shadow: 0 1px #666;
+    transition: 0.5s;
+}
+.theButton:hover {
+    box-shadow: 0 3px #666;
+}
+
+.theButton-on {
+  background-color: #4ae94f;
+}
+.theButton:active{
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
+
+label{
+    padding: 2px;
+    margin: 2px;
+    font:inherit;
+    font-weight: bold;
+}
